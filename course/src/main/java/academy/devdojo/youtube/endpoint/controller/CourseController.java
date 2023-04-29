@@ -24,11 +24,11 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("api/course")
 public class CourseController {
 	
-	private final CourseService service;
+	private final CourseService courseService;
 	
 	@GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Iterable<Course>> findAll(Pageable pageable) {
 		log.info("Listing all course");
-		return new ResponseEntity<>(this.service.list(pageable), HttpStatus.OK);
+		return new ResponseEntity<>(this.courseService.list(pageable), HttpStatus.OK);
 	}
 }
