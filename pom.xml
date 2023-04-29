@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.starking</groupId>
-    <artifactId>microservices-cloud</artifactId>
+    <groupId>academy.devdojo.youtube</groupId>
+    <artifactId>devdojo-microservices</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 

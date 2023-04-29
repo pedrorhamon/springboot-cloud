@@ -1,4 +1,4 @@
-package com.starking.cloud.endpoint.model;
+package academy.devdojo.youtube.endpoint.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

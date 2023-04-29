@@ -1,8 +1,8 @@
-package com.starking.cloud.endpoint.repositories;
+package academy.devdojo.youtube.endpoint.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.starking.cloud.endpoint.model.Course;
+import academy.devdojo.youtube.endpoint.model.Course;
 
 /**
  * @author pedroRhamon
