@@ -1,4 +1,4 @@
-package academy.devdojo.youtube.token.security.token.converter;
+package academy.devdojo.youtube.security.token.converter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.AccessDeniedException;

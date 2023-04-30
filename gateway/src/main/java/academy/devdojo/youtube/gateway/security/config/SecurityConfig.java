@@ -6,8 +6,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.gateway.security.filter.GatewayJwtTokenAuthorizationFilter;
-import academy.devdojo.youtube.token.security.config.SecurityTokenConfig;
-import academy.devdojo.youtube.token.security.token.converter.TokenConverter;
+import academy.devdojo.youtube.security.config.SecurityTokenConfig;
+import academy.devdojo.youtube.security.token.converter.TokenConverter;
 
 /**
  * @author pedroRhamon

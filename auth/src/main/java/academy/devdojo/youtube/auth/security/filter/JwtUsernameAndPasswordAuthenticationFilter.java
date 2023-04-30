@@ -18,7 +18,7 @@ import com.nimbusds.jwt.SignedJWT;
 
 import academy.devdojo.youtube.core.model.ApplicationUser;
 import academy.devdojo.youtube.core.property.JwtConfiguration;
-import academy.devdojo.youtube.token.security.token.creator.TokenCreator;
+import academy.devdojo.youtube.security.token.creator.TokenCreator;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

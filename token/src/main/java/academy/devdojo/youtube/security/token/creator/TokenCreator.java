@@ -1,4 +1,4 @@
-package academy.devdojo.youtube.token.security.token.creator;
+package academy.devdojo.youtube.security.token.creator;
 
 import static java.util.stream.Collectors.toList;
 

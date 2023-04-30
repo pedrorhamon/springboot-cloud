@@ -11,10 +11,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import academy.devdojo.youtube.auth.security.filter.JwtUsernameAndPasswordAuthenticationFilter;
 import academy.devdojo.youtube.core.property.JwtConfiguration;
-import academy.devdojo.youtube.token.security.config.SecurityTokenConfig;
-import academy.devdojo.youtube.token.security.filter.JwtTokenAuthorizationFilter;
-import academy.devdojo.youtube.token.security.token.converter.TokenConverter;
-import academy.devdojo.youtube.token.security.token.creator.TokenCreator;
+import academy.devdojo.youtube.security.config.SecurityTokenConfig;
+import academy.devdojo.youtube.security.filter.JwtTokenAuthorizationFilter;
+import academy.devdojo.youtube.security.token.converter.TokenConverter;
+import academy.devdojo.youtube.security.token.creator.TokenCreator;
 
 /**
  * @author pedroRhamon

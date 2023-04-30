@@ -1,4 +1,4 @@
-package academy.devdojo.youtube.token.security.filter;
+package academy.devdojo.youtube.security.filter;
 
 import static org.apache.commons.lang3.StringUtils.equalsIgnoreCase;
 
@@ -16,8 +16,8 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import com.nimbusds.jwt.SignedJWT;
 
 import academy.devdojo.youtube.core.property.JwtConfiguration;
-import academy.devdojo.youtube.token.security.token.converter.TokenConverter;
-import academy.devdojo.youtube.token.security.util.SecurityContextUtil;
+import academy.devdojo.youtube.security.token.converter.TokenConverter;
+import academy.devdojo.youtube.security.util.SecurityContextUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

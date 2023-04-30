@@ -1,4 +1,4 @@
-package academy.devdojo.youtube.token.security.config;
+package academy.devdojo.youtube.security.config;
 
 import static org.springframework.security.config.http.SessionCreationPolicy.STATELESS;
 
