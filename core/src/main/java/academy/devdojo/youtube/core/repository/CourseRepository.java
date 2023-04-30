@@ -1,8 +1,8 @@
-package com.academy.devdojo.youtube.core.repository;
+package academy.devdojo.youtube.core.repository;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-import com.academy.devdojo.youtube.core.model.Course;
+import academy.devdojo.youtube.core.model.Course;
 
 /**
  * @author pedroRhamon

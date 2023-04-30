@@ -13,11 +13,11 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.academy.devdojo.youtube.core.model.ApplicationUser;
-import com.academy.devdojo.youtube.core.property.JwtConfiguration;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nimbusds.jwt.SignedJWT;
 
+import academy.devdojo.youtube.core.model.ApplicationUser;
+import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.token.security.token.creator.TokenCreator;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

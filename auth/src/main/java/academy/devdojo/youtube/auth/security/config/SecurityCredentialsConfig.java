@@ -9,9 +9,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.academy.devdojo.youtube.core.property.JwtConfiguration;
-
 import academy.devdojo.youtube.auth.security.filter.JwtUsernameAndPasswordAuthenticationFilter;
+import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.token.security.config.SecurityTokenConfig;
 import academy.devdojo.youtube.token.security.filter.JwtTokenAuthorizationFilter;
 import academy.devdojo.youtube.token.security.token.converter.TokenConverter;

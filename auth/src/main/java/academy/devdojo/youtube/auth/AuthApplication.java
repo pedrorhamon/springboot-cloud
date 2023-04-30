@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.academy.devdojo.youtube.core.property.JwtConfiguration;
+import academy.devdojo.youtube.core.property.JwtConfiguration;
 
 @SpringBootApplication
 @EntityScan({"academy.devdojo.youtube.core.model"})

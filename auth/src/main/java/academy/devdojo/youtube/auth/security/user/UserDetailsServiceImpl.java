@@ -13,9 +13,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.academy.devdojo.youtube.core.model.ApplicationUser;
-import com.academy.devdojo.youtube.core.repository.ApplicationUserRepository;
-
+import academy.devdojo.youtube.core.model.ApplicationUser;
+import academy.devdojo.youtube.core.repository.ApplicationUserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

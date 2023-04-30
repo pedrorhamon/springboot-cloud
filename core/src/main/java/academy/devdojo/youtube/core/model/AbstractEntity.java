@@ -1,4 +1,4 @@
-package com.academy.devdojo.youtube.core.model;
+package academy.devdojo.youtube.core.model;
 
 import java.io.Serializable;
 

@@ -8,11 +8,11 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 
-import com.academy.devdojo.youtube.core.model.ApplicationUser;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
 
+import academy.devdojo.youtube.core.model.ApplicationUser;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

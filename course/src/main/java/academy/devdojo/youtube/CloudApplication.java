@@ -7,11 +7,11 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.academy.devdojo.youtube.core.property.JwtConfiguration;
+import academy.devdojo.youtube.core.property.JwtConfiguration;
 
 @SpringBootApplication
-@EntityScan({"com.academy.devdojo.youtube.core.repository"})
-@EnableJpaRepositories({"com.academy.devdojo.youtube.core.repository"})
+@EntityScan({"academy.devdojo.youtube.core.model"})
+@EnableJpaRepositories({"academy.devdojo.youtube.core.repository"})
 @EnableConfigurationProperties(value = JwtConfiguration.class)
 @ComponentScan("com.academy.devdojo.youtube")
 public class CloudApplication {

@@ -13,9 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.NonNull;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.academy.devdojo.youtube.core.property.JwtConfiguration;
 import com.nimbusds.jwt.SignedJWT;
 
+import academy.devdojo.youtube.core.property.JwtConfiguration;
 import academy.devdojo.youtube.token.security.token.converter.TokenConverter;
 import academy.devdojo.youtube.token.security.util.SecurityContextUtil;
 import lombok.RequiredArgsConstructor;

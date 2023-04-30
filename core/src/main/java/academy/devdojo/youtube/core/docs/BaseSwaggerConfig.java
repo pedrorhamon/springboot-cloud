@@ -1,4 +1,4 @@
-package com.academy.devdojo.youtube.core.docs;
+package academy.devdojo.youtube.core.docs;
 
 import org.springframework.context.annotation.Bean;
 

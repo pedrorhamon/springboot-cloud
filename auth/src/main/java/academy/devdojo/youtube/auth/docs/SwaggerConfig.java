@@ -2,8 +2,7 @@ package academy.devdojo.youtube.auth.docs;
 
 import org.springframework.context.annotation.Configuration;
 
-import com.academy.devdojo.youtube.core.docs.BaseSwaggerConfig;
-
+import academy.devdojo.youtube.core.docs.BaseSwaggerConfig;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**

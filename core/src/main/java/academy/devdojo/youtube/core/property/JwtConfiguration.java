@@ -1,4 +1,4 @@
-package com.academy.devdojo.youtube.core.property;
+package academy.devdojo.youtube.core.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
