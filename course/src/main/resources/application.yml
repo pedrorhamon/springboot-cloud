@@ -1,5 +1,14 @@
 server:
-  port: 8080
+  port: 8082
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    register-with-eureka: true
+
 
 spring:
   application:
@@ -14,6 +23,9 @@ spring:
   jmx:
     enabled: false
   datasource:
-    url: jdbc:mysql://localhost:3306/cloud?allowPublicKeyRetrieval=true&sslMode=DISABLED
+    url: jdbc:mysql://localhost:3306/course?allowPublicKeyRetrieval=true&sslMode=DISABLED
     username: root
     password: root
+jwt:
+  config:
+    type: signed
