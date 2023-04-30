@@ -1,11 +1,14 @@
 package academy.devdojo.youtube.token.security.util;
 
+import static java.util.stream.Collectors.toList;
+
 import java.util.List;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 
+import com.academy.devdojo.youtube.core.model.ApplicationUser;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;

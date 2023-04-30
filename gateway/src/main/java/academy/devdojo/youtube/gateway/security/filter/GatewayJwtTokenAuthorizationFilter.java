@@ -14,13 +14,11 @@ import com.netflix.zuul.context.RequestContext;
 import com.nimbusds.jwt.SignedJWT;
 
 import academy.devdojo.youtube.token.security.filter.JwtTokenAuthorizationFilter;
-import ch.qos.logback.core.rolling.helper.TokenConverter;
+import academy.devdojo.youtube.token.security.token.converter.TokenConverter;
 import lombok.SneakyThrows;
 
-/**
- * @author pedroRhamon
- *
- */
+import static academy.devdojo.youtube.token.security.util.SecurityContextUtil.setSecurityContext;
+
 public class GatewayJwtTokenAuthorizationFilter extends JwtTokenAuthorizationFilter {
 
     public GatewayJwtTokenAuthorizationFilter(JwtConfiguration jwtConfiguration, TokenConverter tokenConverter) {
