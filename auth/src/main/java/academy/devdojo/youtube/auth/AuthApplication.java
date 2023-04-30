@@ -1,13 +1,13 @@
-package academy.devdojo.youtube.token;
+package academy.devdojo.youtube.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TokenApplication {
+public class AuthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TokenApplication.class, args);
+		SpringApplication.run(AuthApplication.class, args);
 	}
 
 }
