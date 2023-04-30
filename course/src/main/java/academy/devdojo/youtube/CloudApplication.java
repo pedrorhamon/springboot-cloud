@@ -10,10 +10,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import com.academy.devdojo.youtube.core.property.JwtConfiguration;
 
 @SpringBootApplication
-@EntityScan({"academy.devdojo.youtube.core.model"})
-@EnableJpaRepositories({"academy.devdojo.youtube.core.repository"})
+@EntityScan({"com.academy.devdojo.youtube.core.repository"})
+@EnableJpaRepositories({"com.academy.devdojo.youtube.core.repository"})
 @EnableConfigurationProperties(value = JwtConfiguration.class)
-@ComponentScan("academy.devdojo.youtube")
+@ComponentScan("com.academy.devdojo.youtube")
 public class CloudApplication {
 
 	public static void main(String[] args) {
